@@ -2,6 +2,9 @@ body{
     display: flex;
     flex-direction: column;
     background-color: teal;
+    margin-left: 8.5em;
+    margin-right: 8.5em;
+    padding-left: 2em;
 }
 
 h1{
@@ -13,6 +16,11 @@ h1{
 h2{
     align-self: center;
     color: ghostwhite;
+    font-size: larger;
+}
+
+h3{
+    font-size: larger;
 }
 
 input{
@@ -33,14 +41,17 @@ input::placeholder{
     background-color: ghostwhite;
 }
 
-#speech{
+.speech{
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    justify-content: center;
+    background-color: ghostwhite;
 }
 
 #poem{
     color: ghostwhite;
+    font-size: large;
 }
 
 h4{

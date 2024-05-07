@@ -1,6 +1,6 @@
 document.querySelector('#getPoem').addEventListener('click', getByPoet)
-document.querySelector('#speech').addEventListener('click', readAloud)
-
+document.querySelector('#speakBtn').addEventListener('click', readAloud)
+document.querySelector('#cancelBtn').addEventListener('click', stop)
 function getByPoet(){
     let poet = document.querySelector('input').value
     document.querySelector('#lines').innerText = ''
@@ -37,3 +37,10 @@ function readAloud(){
     const utterThis = new SpeechSynthesisUtterance(ourText)
     synth.speak(utterThis)
 }
+
+
+
+function stop(){
+    speechSynthesis.cancel();
+}
+
