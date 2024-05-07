@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+}
+
+h1{
+    align-self: center;
+    border: 5px dashed palevioletred;
+    color: ghostwhite;
+}
+
+h2{
+    align-self: center;
+    color: ghostwhite;
+}
+
+input{
+    width: 50%;
+    align-self: center;
+    background-color: palevioletred;  
+}
+input, select, textarea{
+    color: ghostwhite;
+}
+
+input::placeholder{
+    color: ghostwhite;
+}
+#getPoem{
+    width: 50%;
+    align-self: center;
+    background-color: ghostwhite;
+}
+
+#speech{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+#poem{
+    color: ghostwhite;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}
